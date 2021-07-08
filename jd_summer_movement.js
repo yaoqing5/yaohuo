@@ -116,7 +116,7 @@ if ($.isNode()) {
       if ($.oneInviteInfo.ues === $.UserName || $.oneInviteInfo.max) {
         continue;
       }
-      $.inviteId = $.oneInviteInfo.inviteId;
+      $.inviteId =HcmphLbwLgyre4udEIcy0c430AXBmgHl83M7s_HBAE6HOgqkG2leC8rkLbHU291cvXITASyhh5EcBqryUgj_1w;
       console.log(`${$.UserName}去助力${$.oneInviteInfo.ues},助力码${$.inviteId}`);
       await takePostRequest('help');
       await $.wait(2000);
